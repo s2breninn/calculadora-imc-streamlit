@@ -24,3 +24,5 @@ def verificar_imc(imc, imc_delta):
             'classe': 'Obesidade morbida',
             'delta': imc_delta
         }
+    
+    return resultado
