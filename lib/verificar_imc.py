@@ -14,3 +14,13 @@ def verificar_imc(imc, imc_delta):
             'classe': 'Sobrepeso',
             'delta': imc_delta
         }
+    elif imc <= 40:
+        resultado = {
+            'classe': 'Obesidade',
+            'delta': imc_delta
+        }
+    else: 
+        resultado = {
+            'classe': 'Obesidade morbida',
+            'delta': imc_delta
+        }
